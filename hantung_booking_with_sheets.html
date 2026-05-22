@@ -663,7 +663,7 @@ const emailConfigured = EMAILJS_SERVICE_ID !== "YOUR_SERVICE_ID" &&
 
 // ★ Google Sheets 試算表串接
 // 設定方式請見 code.gs 檔案
-const SHEETS_WEBHOOK_URL = "YOUR_APPS_SCRIPT_URL"; // ← 替換為 Apps Script 部署 URL
+const SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxDQL06N9vEFE910lLDB8WLF6UzpZo5pkO4FbzGzSVVQISQJrxwhGcj2MJWZ17-Bzm0uA/exec"; // ← 替換為 Apps Script 部署 URL
 
 // 逾時保護：最多等 6 秒，避免手機卡在傳送畫面
 function fetchWithTimeout(url, ms = 6000) {
